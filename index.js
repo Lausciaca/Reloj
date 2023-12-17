@@ -5,7 +5,7 @@ function recopilarDatos(){
         hora : horaActual.getHours().toString(),
         minutos : horaActual.getMinutes().toString(),
         segundos : horaActual.getSeconds().toString(),
-        dia : horaActual.getDay().toString(),
+        dia : horaActual.getDate().toString(),
         mes : horaActual.getMonth().toString(),
         anio : horaActual.getFullYear().toString(),
         fecha : horaActual.getDate().toString()  
